@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashbord</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                <img src="images/logo.png" alt="" srcset="">
+                <h2>Shroida <span>Dash</span></h2>
+                </div>
+                <div class="close" id="close-btn"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="side">
+                <a href="#" class="active">
+                    <i class="fas fa-th-large"></i>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-users"></i>
+                    <h3>Customers</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-receipt"></i>
+                    <h3>Orders</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Messages</h3>
+                    <span class="messages-count">253</span>
+                </a>
+                <a href="#">
+                    <i class="fas fa-cart-plus"></i>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-exclamation"></i>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-plus-circle"></i>
+                    <h3>Add Products</h3>
+                </a>
+                <a href="#">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <h3>Log Out</h3>
+                </a>
+            </div>
+
+        </aside>
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            
+            <div class="insights">
+                <div class="cards">
+                    <i class="fas fa-chart-bar"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>total sales</h3>
+                            <h1>25,212$</h1>
+                        </div>
+                        <div class="right">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!--- End of sales  --->
+                <div class="cards">
+                    <i class="fas fa-chart-bar"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>total Expenses</h3>
+                            <h1>15,023$</h1>
+                        </div>
+                        <div class="right">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>34%</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!--- End of expenses  --->
+                <div class="cards">
+                    <i class="fas fa-solar-panel"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>total Income</h3>
+                            <h1>70,207$</h1>
+                        </div>
+                        <div class="right">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>94%</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!--- End of Income  --->
+            </div>
+            <div class="order">
+                <h1>recent order</h1>
+                
+                    <table>
+                        <thead>
+                            <th>product name</th>
+                            <th>product number</th>
+                            <th>payment</th>
+                            <th>status</th>
+                            <th></th>
+                        </thead>
+                    
+                        <tbody>
+                            <tr>
+                            <td>samsung TV LED</td>
+                            <td>12135433</td>
+                            <td>19,999</td>
+                            <td>DUE</td>
+                            <td><a href="#">details</a></td>
+                            </tr>
+                            <tr>
+                            <td>LG TV LED</td>
+                            <td>121233</td>
+                            <td>20,999</td>
+                            <td>DUE</td>
+                            <td><a href="#">details</a></td>
+                            </tr>
+                            <tr>
+                            <td>samsung TV LED</td>
+                            <td>12135433</td>
+                            <td>19,999</td>
+                            <td>DUE</td>
+                            <td><a href="#">details</a></td>
+                            </tr>
+                            <tr>
+                            <td>LG TV LED</td>
+                            <td>121233</td>
+                            <td>20,999</td>
+                            <td>DUE</td>
+                            <td><a href="#">details</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <a class="show" href="#">show all</a>
+
+
+            </div>
+
+        </main>
+
+    </div>
+</body>
+</html>
